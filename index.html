@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section-1" class="bg-dark">
+        <div class="container-fluid sec1-bg">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center col-12 col-xl-12">
+                    <h1 class="sec1-head">WATCH <br />TV SHOWS & <br />MOVIES <br />ANYWHERE.<br />ANYTIME</h1>
+                </div>
+                <div class="d-flex flex-row justify-content-center col-12 col-xl-12 ">
+                    <img class="sec1-img" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="Chat-GPT-Image-Nov-11-2025-12-17-47-PM" border="0" />
+
+
+
+                </div>
+                <div class=" col-12 d-flex flex-row justify-content-center col-xl-12 ">
+                    <button class="sec1-btn" onclick="display('section-2')">Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-2" class=" container-fluid home-page-bg">
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://en.wikipedia.org/wiki/IMDb" target="_blank"> Know IMDB Ratings</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://cineflixabout1.niat.tech/" target="_blank">About the Developer</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <hr />
+        <h1 class="home">Home</h1>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.pinimg.com/1200x/08/a5/80/08a580450cd8a63470ce0d587cf2ccf4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://64.media.tumblr.com/e12793030aa2d199ea4ec0b4b7511169/dddc7cb1326fa220-e0/s2048x3072/3712ac031702a96facdbb30f07c95fc1ca6c8228.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/1200x/e8/31/5e/e8315e202849cf434ac74f85486c7fb9.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr />
+        <div class="row mr-auto">
+            <p class="para col-12 col-xl-12">Top 3 series on Cineplix:</p>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-3')">
+                <div><img class="img-display" src="https://m.media-amazon.com/images/M/MV5BZDU0ZWZlYWMtNzdhMC00MDUyLWI4MTQtODJiYjM2MmFkZmQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="" />
+                    <p class="img-para">Stranger Things</p>
+                    <ul class="img-para">
+                        <li>Thriller</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-4')">
+                <div><img class="img-display" src="https://i.pinimg.com/originals/e0/fd/8a/e0fd8ab5b7aaa3b76940b3fab5724c56.jpg" alt="" />
+                    <p class="img-para">Wednesday</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" id="" onclick="display('section-5')">
+                <div><img class="img-display" src="https://image.tmdb.org/t/p/original/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg" alt="" />
+                    <p class="img-para">Money Heist</p>
+
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row mr-auto">
+            <p class="para col-12 col-xl-12">Top 3 Hollywood movies on Cineplix:</p>
+            <div class="col-6 col-md-4 col-xl-4" id="" onclick="display('section-6')">
+                <div><img class="img-display" src="https://tse4.mm.bing.net/th/id/OIP.grGgKS0m0e6N4obGbAqwogHaK-?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+                    <p class="img-para">Avengers: <br /> End Game</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-7')">
+                <div><img class="img-display" src="https://tse4.mm.bing.net/th/id/OIP.If52aHwONQaJ3zTWmOygVgHaK-?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+                    <p class="img-para">Mission <br />Impossible</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-8')">
+                <div><img class="img-display" src="https://cdna.artstation.com/p/assets/images/images/020/324/354/large/hari-krish-interstellar-filter-2.jpg?1567348086" alt="" />
+                    <p class="img-para">Interstellar</p>
+
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row mr-auto">
+            <p class="para col-12 col-xl-12">Top 3 Tollywood movies on Cineplix:</p>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-9')">
+                <div><img class="img-display" src="https://wallpapercave.com/wp/wp8981256.jpg" alt="" />
+                    <p class="img-para">Salaar</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-10')">
+                <div><img class="img-display" src="https://tse1.explicit.bing.net/th/id/OIP.hi4oi45a1pIljT02D-_EOwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+                    <p class="img-para">Guntur Kaaram</p>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-4" onclick="display('section-11')">
+                <div><img class="img-display" src="https://tse1.mm.bing.net/th/id/OIP.17cqVPbY_Ai-u83tGtkNjQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+                    <p class="img-para">Hit: <br />The Third Case</p>
+
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer class="footer col-12">
+            <h1 class="footer-h1">Cineflix</h1>
+            <p>Cineflix app is used to access content like movies, TV shows, music, and live events online, providing on-demand access and convenience across various devices. Users can stream media in real-time without downloading the entire file, enabling them to start watching or listening immediately and pause content whenever they want. These apps are popular for both on-demand consumption and for live broadcasting.</p>
+            <h2 class="footer-h1">Follow us on:</h2>
+            <a href="https://www.instagram.com/mitesh_vasireddy_?igsh=MXJrYXUybHB3YjJ3dA==" target="_blank"><button class="btn">
+                    <img class="img-btn" src="https://th.bing.com/th/id/R.26d9974a1feec9905a4e0d5e5ddf8db6?rik=Og1ujXM2C1AJHQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa5%2fInstagram_icon.png&ehk=1%2fZWXYn2nN%2fR80TOtcKH5SsdLkkUvMLrB%2fHUXRDHk9I%3d&risl=&pid=ImgRaw&r=0" alt="" />
+                </button></a>
+            <a href="https://www.linkedin.com/in/mitesh-vasireddy-7610b3372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><button class="btn">
+                    <img class="img-btn" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG24.png" alt="" />
+                </button></a>
+        </footer>
+    </div>
+    <div class="container videopage" id="section-3">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b352eba0b0871cdf3b2d" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It's the summer of 1986 in Hawkins, Indiana, and the gang is trying to move on after the chaos of the Starcourt Mall. Eleven is adjusting to life without her powers, while Mike, Dustin, Lucas, and Max face the growing pains of high school and fractured friendships. But peace is short-lived. A terrifying new supernatural threat emerges from the Upside Down, forcing the group to reunite and confront horrors that blur the line between reality and nightmare. As secrets unravel and loyalties are tested, they must battle not just monsters—but the darkness within themselves. This summer, growing up might be the scariest thing of all...<br />
+                . Genre: Sci-Fi, Horror, Drama <br />
+                . Audience: Teen & Young Adult <br />
+                . IMDb rating: 8.7/10 <br />
+                . Release year: 2022 (Season 4) <br />
+                . Duration: ~75 minutes (Season 4 episodes vary) <br />
+                . Cast: Millie Bobby Brown, Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, Sadie Sink <br />
+                . Season: Season 4 <br />
+                <a href="https://en.wikipedia.org/wiki/Stranger_Things">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container videopage" id="section-4">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b3c82067a717a7585c8a" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>t’s the rise of mystery and menace at Nevermore Academy, and Wednesday Addams is drawn into a world she was born to challenge. Bound by a psychic gift and a thirst for truth, she must confront monstrous forces, hidden legacies, and a prophecy that threatens everything. As secrets unravel and alliances shift, Wednesday’s investigation ignites a battle for identity, justice, and survival. This isn’t just a school year—it’s a reckoning for the outcast world..<br />
+                . Genre: Supernatural Mystery, Gothic Thriller, Dark Comedy <br />
+                . Audience: Teen & Young Adult Fans, Lovers of Dark Fantasy <br />
+                . IMDb rating: 8.1/10 <br />
+                . Release year: 2022 (Wednesday: Season 1)<br />
+                . Duration: 8 episodes (~45 minutes each) <br />
+                . Cast: Jenna Ortega, Gwendoline Christie, Emma Myers, Hunter Doohan, Percy Hynes White <br />
+                . Installment: First chapter of the Wednesday saga<br />
+                <a href="https://en.wikipedia.org/wiki/Wednesday_(TV_series)">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-5">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b4171f7d24423608c9be" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the final hours inside the Bank of Spain, and the crew is on the brink. With Tokyo gone and the army closing in, the Professor must rely on instinct and unlikely allies to pull off the most daring escape yet. Emotions run high, loyalties are tested, and every second counts. In this explosive conclusion, the heist becomes a war—and survival means rewriting the rules..<br />
+                . Genre: Crime Thriller, Drama <br />
+                . Audience: Teen & Adult Global Viewers <br />
+                . IMDb rating: 8.2/10 <br />
+                . Release year: 2021 (Money Heist Season 5) <br />
+                . Duration: ~50 minutes per episode<br />
+                . Cast: Álvaro Morte, Úrsula Corberó, Pedro Alonso, Itziar Ituño, Miguel Herrán, Jaime Lorente<br />
+                . Season: Final chapter of La Casa de Papel<br />
+                <a href="https://en.wikipedia.org/wiki/Money_Heist">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-6">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b2cf6ec591d5177eeeb1" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the aftermath of Thanos’s snap, and the Avengers are scattered, broken, and grieving. With half of all life erased, Tony Stark and Nebula drift in space, while the remaining heroes on Earth struggle to find hope. But when a chance to reverse the devastation emerges, the team reunites for one final mission—traveling through time to retrieve the Infinity Stones and undo the damage. As they confront their past and face impossible choices, the Avengers must sacrifice everything to save the future. This battle will decide the fate of the universe—and mark the end of an era..<br />
+                . Genre: Action, Sci-Fi, Superhero Drama<br />
+                . Audience: Teen & Adult Marvel Fans<br />
+                . IMDb rating: 8.4/10<br />
+                . Release year: 2019 (Avengers: Endgame)<br />
+                . Duration: 181 minutes <br />
+                . Cast: Robert Downey Jr., Chris Evans, Scarlett Johansson, Mark Ruffalo, Chris Hemsworth, Jeremy Renner<br />
+                . Installment: Final chapter of the Infinity Saga <br />
+                <a href="https://en.wikipedia.org/wiki/Avengers:_Endgame">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-7">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911bee5e8a65429571250fa" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the rise of global espionage and high-stakes sabotage, and Ethan Hunt is drawn into a world he’s sworn to protect. Bound by loyalty to the Impossible Mission Force (IMF), he must confront rogue nations, deadly conspiracies, and betrayals that cut deep. As missions escalate and alliances blur, Ethan’s pursuit of truth ignites a war against time, technology, and tyranny. This isn’t just another assignment—it’s a race to save civilization itself.<br />
+                . Genre: Action Thriller, Spy Drama, Techno-Conspiracy<br />
+                . Audience: Adult & Global Action Fans, Lovers of High-Octane Suspense<br />
+                . IMDb rating: 7.8/10 (average across the franchise) <br />
+                . Release span: 1996–2023 (Mission: Impossible – Dead Reckoning Part One<br />
+                . Duration: 8 films (~110–165 minutes each)<br />
+                . Cast: Tom Cruise, Ving Rhames, Simon Pegg, Rebecca Ferguson, Henry Czerny<br />
+                . Installment: Ongoing saga of the Mission: Impossible franchise <br />
+                <a href="https://en.wikipedia.org/wiki/Mission:_Impossible_(film_series)">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-8">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(41.88%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911be8191191a7b796f7e17" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the fall of Earth’s future and the rise of cosmic hope, and Cooper is drawn into a mission that defies time itself. Bound by love for his daughter and a duty to save humanity, he must confront black holes, alien worlds, and the paradoxes of gravity. As space bends and time fractures, Cooper’s journey becomes a battle for survival, sacrifice, and the enduring power of connection. This isn’t just a voyage—it’s a quantum leap for mankind.<br />
+                . Genre: Science Fiction, Space Epic, Philosophical Drama<br />
+                . Audience: Sci-Fi Enthusiasts, Thinkers, and Emotionally Driven Viewers<br />
+                . IMDb rating: 8.7/10 <br />
+                . Release year: 2014 (Interstellar)<br />
+                . Duration: 169 minutes<br />
+                . Cast: Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine, Mackenzie Foy<br />
+                . Installment: Standalone cinematic masterpiece by Christopher Nolan<br />
+                <a href="https://en.wikipedia.org/wiki/Interstellar_(film)">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-9">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b469d054cde4c3822b30" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the rise of rebellion in the dystopian city of Khansaar, and Deva is drawn back into a world he tried to leave behind. Bound by a promise to a fallen friend, he must confront ruthless factions, buried secrets, and a violent legacy. As chaos erupts and loyalties fracture, Deva’s return sparks a war that will decide the fate of an empire. This battle isn’t just for power—it’s for peace, honor, and redemption.<br />
+                . Genre: Action Thriller, Neo-Noir Drama<br />
+                . Audience: Adult & Mass Action Fans<br />
+                . IMDb rating: 6.5/10 <br />
+                . Release year: 2023 (Salaar: Part 1 – Ceasefire)<br />
+                . Duration: 175 minutes<br />
+                . Cast: Prabhas, Prithviraj Sukumaran, Shruti Haasan, Jagapathi Babu, Bobby Simha <br />
+                . Installment: First chapter of the Salaar saga<br />
+                <a href="https://en.wikipedia.org/wiki/Salaar:_Part_1_%E2%80%93_Ceasefire">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-10">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/69119c69a50da98bf96c96a6" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the rise of buried truths in the fiery city of Guntur, and Ramana is drawn into a past he never understood. Bound by the pain of abandonment and a quest for justice, he must confront political conspiracies, fractured family ties, and a legacy scorched by betrayal. As emotions flare and loyalties clash, Ramana’s return sparks a reckoning that will redefine love, honor, and identity. This isn’t just a homecoming—it’s a battle for truth and belonging.<br />
+                . Genre: Action Drama, Family Conflict, Political Thriller<br />
+                . Audience: Mass Telugu Cinema Fans, Lovers of Emotional Action <br />
+                . IMDb rating: 5.2/10 <br />
+                . Release year: 2024 (Guntur Kaaram)<br />
+                . Duration: 159 minutes<br />
+                . - Cast: Mahesh Babu, Sreeleela, Ramya Krishna, Prakash Raj, Meenakshi Chaudhary<br />
+                . Installment: Standalone film by Trivikram Srinivas <br />
+                <a href="https://en.wikipedia.org/wiki/Guntur_Kaaram">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+    <div class="container-fluid videopage" id="section-11">
+        <img class="nav-logo" src="https://i.ibb.co/j9kmNg8Q/Chat-GPT-Image-Nov-11-2025-12-17-47-PM.png" alt="" />
+        <div><button class="back-btn mt-3" onclick="display('section-2')">Back</button></div>
+        <div class="row">
+            <div class="d-flex  flex-row justify-content-center col-12 col-xl-12 mt-3 ">
+                <div style="height: 0; padding-bottom: calc(52.81%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6911b1f7965c438d8f65f740" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div>
+            </div>
+        </div>
+        <div class="col-12 col-xl-12 detail">
+            <h1 class="detail-head">About the film</h1>
+            <p>It’s the peak of summer in Hyderabad, and Arjun Sarkaar is pulled into the most disturbing case of his career. A string of brutal murders shakes the city, and as the investigation unfolds, Arjun finds himself entangled in a web of psychological trauma, international conspiracies, and moral ambiguity. Haunted by his past and driven by a relentless pursuit of justice, he must face not only a cunning killer known as Alpha—but the darkness within himself. This summer, truth comes at a cost, and solving the case might mean losing everything.<br />
+                . Genre: Crime Thriller, Psychological Drama <br />
+                . Audience: Young Adult & Mature Thriller Fans<br />
+                . IMDb rating: 8.2/10 <br />
+                . Release year: 2025 (HIT: The Third Case) <br />
+                . Duration: 157 minutes <br />
+                . Cast: Nani, Srinidhi Shetty, Prateik Babbar, Rao Ramesh, Samuthirakani <br />
+                . Season/Installment: Third film in the HIT Universe <br />
+                <a href="https://en.wikipedia.org/wiki/HIT:_The_Third_Case">Know more</a>
+            </p>
+
+        </div>
+        <hr />
+        <footer class="footer2 col-12">
+            <p>© 2025 Cineflix. All rights reserved.
+                Designed and developed with care. Reproduction or redistribution of any material without permission is strictly prohibited.</p>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
